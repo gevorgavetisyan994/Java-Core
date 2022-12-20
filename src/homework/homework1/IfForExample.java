@@ -1,4 +1,4 @@
-package homework1;
+package homework.homework1;
 
 import java.sql.SQLOutput;
 
@@ -18,14 +18,14 @@ public class IfForExample {
         }
         System.out.println();
 
-        char x = 27;
-        char y = 43;
-        System.out.println(x);
-        System.out.println(y);
-        if (x == y) {
-        System.out.println("x equal y");
+        char c = (char) a;
+        char c1 = (char) b;
+        System.out.println(c);
+        System.out.println(c1);
+        if (a == b) {
+            System.out.println("a equal b");
         } else {
-            System.out.println("x no equal y");
+            System.out.println("a no equal b");
         }
     }
 }
