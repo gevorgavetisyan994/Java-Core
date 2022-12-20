@@ -14,7 +14,7 @@ public class IfForExample {
         }
 
         for (a = 27; a <= 43; a++) {
-            System.out.print(a + " ,");
+            System.out.print(a + ", ");
         }
         System.out.println();
 
@@ -22,10 +22,12 @@ public class IfForExample {
         char y = 43;
         System.out.println(x);
         System.out.println(y);
-        if (x == y){
-        System.out.println("x equal y");}else {
-            System.out.println("x no equal y");}
+        if (x == y) {
+        System.out.println("x equal y");
+        } else {
+            System.out.println("x no equal y");
         }
     }
+}
 
 
