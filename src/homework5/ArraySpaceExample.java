@@ -13,6 +13,7 @@ public class ArraySpaceExample {
                     int beginIndex = 0;
                     int endIndex = spaceArray.length - 1;
                     while (beginIndex < endIndex && spaceArray[beginIndex] == ' '){
+                        beginIndex++;endIndex--;
                         System.out.println(spaceArray);
                     }
                 }
